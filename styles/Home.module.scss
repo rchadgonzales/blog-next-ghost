@@ -1,5 +1,22 @@
 .container {
-  padding: 0 2rem;
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.postitem {
+  padding: 10px 0;
+}
+
+.goback {
+  text-align: left;
+  align-self: flex-start;
+  cursor: pointer;
 }
 
 .main {
